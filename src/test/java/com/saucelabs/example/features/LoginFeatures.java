@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class LoginFeatures extends BaseFeature
+public class LoginFeatures
 {
     private final static String userName = System.getenv("SAUCE_USERNAME");
     private final static String accessKey = System.getenv("SAUCE_ACCESS_KEY");
